@@ -1,6 +1,6 @@
 ﻿// EZ-USB FX2 EEPROM Programmer
 // (C) Copyright 2021 Tokushu Denshi Kairo Inc.
-// See http://github.jo/tokuden/FX2Writer
+// See https://github.com/tokuden/FX2Writer
 
 using System;
 using System.Collections.Generic;
