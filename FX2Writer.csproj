@@ -87,6 +87,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="cyusb-driveri-win8.1-x64\cyusb3.cat" />
+    <None Include="cyusb-driveri-win8.1-x64\cyusb3.sys" />
+    <None Include="firmware\np1027.iic" />
+    <None Include="firmware\np1116.iic" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -114,6 +118,15 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cyusb-driveri-win8.1-x64\cyusb3.inf" />
+    <Content Include="cyusb-driveri-win8.1-x64\dpinst.exe" />
+    <Content Include="cyusb-driveri-win8.1-x64\WdfCoinstaller01011.dll" />
+    <Content Include="docimg\drivers.png" />
+    <Content Include="docimg\eeprom_missing_device.png" />
+    <Content Include="docimg\firmware.png" />
+    <Content Include="docimg\fx2writer.png" />
+    <Content Include="docimg\sp7-usb.jpg" />
+    <Content Include="docimg\sp7brd.jpg" />
     <Content Include="FX2Writer.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
