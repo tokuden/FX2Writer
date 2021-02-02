@@ -87,8 +87,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="cyusb-driveri-win8.1-x64\cyusb3.cat" />
-    <None Include="cyusb-driveri-win8.1-x64\cyusb3.sys" />
+    <None Include="cyusb-driver\CyUSB.chm" />
+    <None Include="cyusb-driver\CyUSB.pdf" />
+    <None Include="cyusb-driver\vista\x64\cyusb3.cat" />
+    <None Include="cyusb-driver\vista\x64\cyusb3.sys" />
+    <None Include="cyusb-driver\vista\x86\cyusb3.cat" />
+    <None Include="cyusb-driver\vista\x86\cyusb3.sys" />
+    <None Include="cyusb-driver\Win7\x64\cyusb3.cat" />
+    <None Include="cyusb-driver\Win7\x64\cyusb3.sys" />
+    <None Include="cyusb-driver\Win7\x86\cyusb3.cat" />
+    <None Include="cyusb-driver\Win7\x86\cyusb3.sys" />
+    <None Include="cyusb-driver\Win8.1\x64\cyusb3.cat" />
+    <None Include="cyusb-driver\Win8.1\x64\cyusb3.sys" />
+    <None Include="cyusb-driver\Win8.1\x86\cyusb3.cat" />
+    <None Include="cyusb-driver\Win8.1\x86\cyusb3.sys" />
+    <None Include="cyusb-driver\Win8\x64\cyusb3.cat" />
+    <None Include="cyusb-driver\Win8\x64\cyusb3.sys" />
+    <None Include="cyusb-driver\Win8\x86\cyusb3.cat" />
+    <None Include="cyusb-driver\Win8\x86\cyusb3.sys" />
+    <None Include="cyusb-driver\wxp\x64\cyusb3.cat" />
+    <None Include="cyusb-driver\wxp\x64\cyusb3.sys" />
+    <None Include="cyusb-driver\wxp\x86\cyusb3.cat" />
+    <None Include="cyusb-driver\wxp\x86\cyusb3.sys" />
     <None Include="firmware\np1027.iic" />
     <None Include="firmware\np1116.iic" />
     <None Include="Properties\Settings.settings">
@@ -118,9 +138,26 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="cyusb-driveri-win8.1-x64\cyusb3.inf" />
-    <Content Include="cyusb-driveri-win8.1-x64\dpinst.exe" />
-    <Content Include="cyusb-driveri-win8.1-x64\WdfCoinstaller01011.dll" />
+    <Content Include="cyusb-driver\vista\x64\cyusb3.inf" />
+    <Content Include="cyusb-driver\vista\x64\WdfCoInstaller01009.dll" />
+    <Content Include="cyusb-driver\vista\x86\cyusb3.inf" />
+    <Content Include="cyusb-driver\vista\x86\WdfCoInstaller01009.dll" />
+    <Content Include="cyusb-driver\Win7\x64\cyusb3.inf" />
+    <Content Include="cyusb-driver\Win7\x64\WdfCoinstaller01011.dll" />
+    <Content Include="cyusb-driver\Win7\x86\cyusb3.inf" />
+    <Content Include="cyusb-driver\Win7\x86\WdfCoinstaller01011.dll" />
+    <Content Include="cyusb-driver\Win8.1\x64\cyusb3.inf" />
+    <Content Include="cyusb-driver\Win8.1\x64\WdfCoinstaller01011.dll" />
+    <Content Include="cyusb-driver\Win8.1\x86\cyusb3.inf" />
+    <Content Include="cyusb-driver\Win8.1\x86\WdfCoinstaller01011.dll" />
+    <Content Include="cyusb-driver\Win8\x64\cyusb3.inf" />
+    <Content Include="cyusb-driver\Win8\x64\WdfCoinstaller01011.dll" />
+    <Content Include="cyusb-driver\Win8\x86\cyusb3.inf" />
+    <Content Include="cyusb-driver\Win8\x86\WdfCoinstaller01011.dll" />
+    <Content Include="cyusb-driver\wxp\x64\cyusb3.inf" />
+    <Content Include="cyusb-driver\wxp\x64\WdfCoInstaller01009.dll" />
+    <Content Include="cyusb-driver\wxp\x86\cyusb3.inf" />
+    <Content Include="cyusb-driver\wxp\x86\WdfCoInstaller01009.dll" />
     <Content Include="docimg\drivers.png" />
     <Content Include="docimg\eeprom_missing_device.png" />
     <Content Include="docimg\firmware.png" />
